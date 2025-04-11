@@ -16,6 +16,10 @@ Desenvolver um sistema de agendamento online simples integrado. Voltado para peq
 
 Muitos pequenos empreendedores ainda dependem de métodos manuais para realizar o agendamento de seus serviços — como cadernos, agendas físicas ou troca de mensagens por WhatsApp sem controle. Aumentando o risco de problemas de comunicação**,** esquecimentos e retrabalho. Além disso, ao se usar um serviço com maior controle e organização, é possível também otimizar mais o tempo dos empreendedores a um custo menor.
 
+# Project Model Canvas:
+
+![Contribution guidelines for this project](/ProjectModelCanvas.png)
+
 # Personas Mapeadas
 
 ## Persona 1
