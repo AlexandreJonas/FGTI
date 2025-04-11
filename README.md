@@ -18,7 +18,7 @@ Muitos pequenos empreendedores ainda dependem de métodos manuais para realizar 
 
 # Project Model Canvas:
 
-![Contribution guidelines for this project](/ProjectModelCanvas.png)
+![Project Model Canvas](/ProjectModelCanvas.png)
 
 # Personas Mapeadas
 
