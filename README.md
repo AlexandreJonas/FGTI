@@ -14,7 +14,7 @@ Desenvolver um sistema de agendamento online simples integrado. Voltado para peq
 
 ## Motivação:
 
-Muitos pequenos empreendedores ainda dependem de métodos manuais para realizar o agendamento de seus serviços — como cadernos, agendas físicas ou troca de mensagens por WhatsApp sem controle. Aumentando o risco de problemas de comunicação**,** esquecimentos e retrabalho. Além disso, ao se usar um serviço com maior controle e organização, é possível também otimizar mais o tempo dos empreendedores a um custo menor.
+Muitos pequenos empreendedores ainda dependem de métodos manuais para realizar o agendamento de seus serviços — como cadernos, agendas físicas ou troca de mensagens por WhatsApp sem controle. Aumentando o risco de problemas de comunicação, esquecimentos e retrabalho. Além disso, ao se usar um serviço com maior controle e organização, é possível também otimizar mais o tempo dos empreendedores a um custo menor.
 
 # Project Model Canvas:
 
@@ -116,3 +116,106 @@ pode atender os objetivos do Persona):**
 
 - Fornece link personalizado para agendamentos
 - Permite que alunos vejam horários disponíveis e agendem direto
+
+# Entrega 2
+
+# User stories:
+
+### User Story 1
+
+Como dono de negócio, desejo que meus clientes possam agendar horários online, para que eu não precise gerenciar manualmente minha agenda.
+
+**Critérios de Aceitação**:
+
+- O cliente consegue acessar um calendário com horários disponíveis.
+- O cliente pode selecionar um horário, preencher nome/contato e confirmar o agendamento.
+- O dono do negócio recebe uma notificação após o agendamento.
+- O horário agendado fica bloqueado para outros usuários.
+
+**Definition of Done (DoD)**:
+
+- Tela de agendamento publicada e acessível por link.
+- Dados do agendamento salvos corretamente no banco de dados.
+- Notificações funcionando corretamente para o dono do negócio.
+- Testes manuais realizados com sucesso em diferentes dispositivos.
+
+### User Story 2
+
+Como cliente, desejo que o sistema me envie lembretes automáticos, para reduzir o número de faltas e atrasos.
+
+**Critérios de Aceitação**:
+
+- Cliente recebe lembrete por e-mail ou WhatsApp antes do horário agendado.
+- O horário e nome do profissional constam no lembrete.
+- Os lembretes são enviados com uma antecedência configurável (ex: 1h, 24h).
+
+**Definition of Done (DoD)**:
+
+- Integração com serviço de envio (e-mail ou WhatsApp) implementada.
+- Mensagens de lembrete personalizadas e testadas.
+- Validação automática dos dados de contato.
+- Registro de envios bem-sucedidos armazenado.
+- Testes de envio concluídos com diferentes horários.
+
+### User Story 3
+
+Como dono de negócio, desejo que cada funcionário meu tenha sua própria agenda online, para que os clientes possam escolher com quem querem ser atendidos.
+
+**Critérios de Aceitação**:
+
+- O sistema permite cadastrar funcionários com suas agendas separadas.
+- O cliente pode selecionar o funcionário antes de visualizar horários.
+- Os agendamentos são atribuídos corretamente ao profissional selecionado.
+
+**Definition of Done (DoD)**:
+
+- Agendas individuais exibidas corretamente.
+- Fluxo de agendamento testado com múltiplos profissionais.
+- Validação de conflitos.
+
+### User Story 4
+
+Como dono de negócio, desejo que o sistema permita bloqueios de horários para folgas ou manutenção, para garantir uma organização eficiente.
+
+**Critérios de Aceitação**:
+
+- Profissionais podem bloquear horários diretamente na agenda.
+- Os horários bloqueados não aparecem para os clientes.
+- É possível desbloquear um horário manualmente.
+
+**Definition of Done (DoD)**:
+
+- Horários bloqueados ocultados da visualização pública.
+- Testes realizados com bloqueios e desbloqueios.
+- Interface validada com diferentes perfis de usuário.
+
+### User Story 5
+
+Como dono de negócio, desejo disponibilizar um link de agendamento para meus clientes, para que eles possam marcar agendamentos nos horários disponíveis sem precisar me contatar diretamente.
+
+**Critérios de Aceitação**:
+
+- O sistema gera um link público com acesso direto à agenda.
+- O link pode ser compartilhado por WhatsApp, e-mail ou redes sociais.
+
+**Definition of Done (DoD)**:
+
+- Geração automática de link único funcional.
+- Permissões de acesso validadas (visualização apenas).
+- Testes feitos com compartilhamento do link em diferentes canais.
+- Funcionalidade integrada com a agenda geral do sistema.
+
+### User Story 6
+
+Como dono de negócio, desejo poder reagendar ou cancelar agendamentos facilmente, para me adaptar a imprevistos sem complicações.
+
+**Critérios de Aceitação**:
+
+- Há opção de reagendar para outro horário ou cancelar.
+- O cliente é notificado automaticamente sobre a alteração ou cancelamento.
+
+**Definition of Done (DoD)**:
+
+- Funcionalidade de escolha de novo horário funcionando sem erros.
+- Mensagens de aviso ao cliente testadas e entregues corretamente.
+- Logs de alterações armazenados no sistema.
