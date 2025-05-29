@@ -219,3 +219,35 @@ Como dono de negócio, desejo poder reagendar ou cancelar agendamentos facilment
 - Funcionalidade de escolha de novo horário funcionando sem erros.
 - Mensagens de aviso ao cliente testadas e entregues corretamente.
 - Logs de alterações armazenados no sistema.
+
+### User Story 7
+
+**Como dono de negócio**, desejo exportar os dados de agendamentos para planilhas, para que eu possa analisar informações e arquivar relatórios mensais.
+
+**Critérios de Aceitação**:
+
+- O sistema oferece um botão de exportação em formato .xlsx ou .pdf.
+- Os dados exportados incluem: nome do cliente, serviço, profissional, data/hora do agendamento, status (realizado, cancelado, etc).
+- O arquivo pode ser baixado diretamente pelo navegador.
+
+**Definition of Done (DoD)**:
+
+- Exportação funcionando com filtros por data e profissional.
+- Testes manuais de abertura do arquivo em Excel e Google Planilhas.
+- Verificação de integridade e precisão dos dados.
+
+### User Story 8
+
+**Como dono de negócio**, desejo receber feedback dos clientes após os atendimentos, para que eu possa melhorar meus serviços com base nas avaliações.
+
+**Critérios de Aceitação**:
+
+- O cliente pode avaliar com estrelas (1 a 5) e/ou comentário opcional.
+- O feedback é armazenado e acessível ao dono do negócio.
+- Os dados não são públicos, apenas internos.
+
+**Definition of Done (DoD)**:
+
+- Envio automático de link de avaliação após o agendamento.
+- Armazenamento dos dados vinculado ao agendamento.
+
