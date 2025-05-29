@@ -251,3 +251,19 @@ Como dono de negócio, desejo poder reagendar ou cancelar agendamentos facilment
 - Envio automático de link de avaliação após o agendamento.
 - Armazenamento dos dados vinculado ao agendamento.
 
+# Product Backlog **Distribuído**
+
+| User Story | Funcionalidade | Prioridade | Sprint |
+| --- | --- | --- | --- |
+| US01 | Cadastro de serviços e horários disponíveis | Alta | 1 |
+| US01 | Visualização de agenda para o dono do negócio | Alta | 1 |
+| US01 | Agendamento online por clientes | Alta | 2 |
+| US03 | Cadastro de múltiplos profissionais com agendas individuais | Média | 3 |
+| US03 | Seleção de profissional pelo cliente no momento do agendamento | Média | 4 |
+| US06 | Reagendamento e cancelamento de compromissos | Média | 5 |
+| US02 | Notificações para o dono do negócio sobre novos agendamentos | Média | 6 |
+| US02 | Envio de lembretes automáticos por e-mail ou WhatsApp ao cliente | Baixa | 6 |
+| US04 | Bloqueio de horários para folgas ou manutenção | Baixa | 7 |
+| US08 | Feedback dos clientes após o atendimento | Baixa | 7 |
+| US07 | Exportação de dados para planilhas | Baixa | 8 |
+
