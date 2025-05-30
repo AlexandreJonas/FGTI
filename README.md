@@ -253,6 +253,8 @@ Como dono de negócio, desejo poder reagendar ou cancelar agendamentos facilment
 
 # Product Backlog **Distribuído**
 
+**Considerando que o desenvolvimento do produto iniciar-se-á em 05/08/2024 e será trabalhado até 22/11/2024. O backlog foi distribuído em 7 sprints de duas semanas e 1 sprint de 9 dias úteis; dado os 79 dias úteis do cronograma.**
+
 | User Story | Funcionalidade | Prioridade | Sprint |
 | --- | --- | --- | --- |
 | US01 | Cadastro de serviços e horários disponíveis | Alta | 1 |
