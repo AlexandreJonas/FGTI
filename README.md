@@ -269,3 +269,34 @@ Como dono de negócio, desejo poder reagendar ou cancelar agendamentos facilment
 | US08 | Feedback dos clientes após o atendimento | Baixa | 7 |
 | US07 | Exportação de dados para planilhas | Baixa | 8 |
 
+## Plano de Releases
+
+### **Release 1 – MVP Funcional**
+
+Atender à principal dor das personas (dificuldade em gerenciar agendamentos manualmente) e oferecer um fluxo de agendamento digital básico e funcional.
+
+**Funcionalidades incluídas:**
+
+- Cadastro de serviços e horários disponíveis
+- Visualização da agenda pelo dono do negócio
+- Cadastro de múltiplos profissionais com agendas individuais
+- Agendamento online por clientes
+- Seleção de profissional no momento do agendamento
+
+**Data estimada de entrega:** Após a conclusão da Sprint 4
+
+### **Release 2 – Gestão Avançada e Feedbacks**
+
+Incrementar o sistema com funcionalidades voltadas à gestão de equipes além de feedbacks e análises.
+
+**Funcionalidades incluídas:**
+
+- Bloqueio de horários para folgas/manutenção
+- Reagendamento e cancelamento de compromissos
+- Envio de lembretes automáticos por WhatsApp e e-mail
+- Coleta de feedback dos clientes após atendimento
+- Exportação de dados para planilhas
+- Notificações automáticas de confirmação
+- Geração de link único para agendamento
+
+**Data estimada de entrega:** Após a conclusão da Sprint 8
