@@ -300,3 +300,16 @@ Incrementar o sistema com funcionalidades voltadas à gestão de equipes além d
 - Geração de link único para agendamento
 
 **Data estimada de entrega:** Após a conclusão da Sprint 8
+
+Roadmap Planejado – Agosto a Novembro 2024
+
+|Sprint |	Período |	Entregas-Chave |	Release |
+| --- | --- | --- | --- |
+|Sprint 1 |	05/08 – 16/08 |	Cadastro de serviços + Visualização da agenda |	
+|Sprint 2 |	19/08 – 30/08 |	Agendamento online pelo cliente	|
+|Sprint 3	| 02/09 – 13/09 |	Cadastro de profissionais com agendas separadas |	
+|Sprint 4 |	16/09 – 27/09 | Escolha do profissional pelo cliente |	Release 1.0 |
+|Sprint 5 |	30/09 – 11/10	| Reagendamento e cancelamentos	|
+|Sprint 6 |	14/10 – 25/10	| Notificações + Lembretes automáticos |	
+|Sprint 7 |	28/10 – 08/11	| Bloqueios de horário + Coleta de feedbacks |	
+|Sprint 8	| 11/11 – 22/11	| Exportação de dados + testes e ajustes finais |	Release 2.0 |
